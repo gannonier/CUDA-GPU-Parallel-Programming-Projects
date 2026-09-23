@@ -8,11 +8,16 @@ Each directory contains the CUDA source code for an individual parallel-programm
 
 ## Projects
 
-**Vector Addition**             | Parallel vector addition using CUDA kernels, with work distributed across GPU threads.                                       
-**Basic Matrix Multiplication** | GPU implementation of matrix multiplication using CUDA's multidimensional thread and block organization.                     
+**Vector Addition**             | Parallel vector addition using CUDA kernels, with work distributed across GPU threads.
+
+**Basic Matrix Multiplication** | GPU implementation of matrix multiplication using CUDA's multidimensional thread and block organization.    
+
 **Tiled Matrix Multiplication** | Matrix multiplication implemented using a tiled approach to explore GPU memory access and more efficient parallel execution. 
-**Convolution**                 | Parallel convolution implementation demonstrating how neighboring input elements can be processed concurrently on the GPU.   
-**Histogram**                   | GPU implementation of histogram computation, a problem involving many threads updating a limited number of output values.   
+
+**Convolution**                 | Parallel convolution implementation demonstrating how neighboring input elements can be processed concurrently on the GPU. 
+
+**Histogram**                   | GPU implementation of histogram computation, a problem involving many threads updating a limited number of output values. 
+
 **List Scan**                   | Parallel prefix-scan implementation demonstrating a common building block used in many GPU algorithms.                       
 
 ## Concepts Explored
